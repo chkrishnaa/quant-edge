@@ -1,0 +1,12 @@
+/* App.css — all vite boilerplate removed, project-specific only */
+
+/* Ensure Outfit propagates through every element */
+*, *::before, *::after {
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+}
+
+/* Theme tokens scoped to the root div rendered by AppLayout */
+[data-theme="dark"],
+[data-theme="light"] {
+  color-scheme: inherit;
+}
